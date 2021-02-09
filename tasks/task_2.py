@@ -49,21 +49,4 @@ print("".join(spis_for_decode))
 
 
 
-# res_encode = []
-# for letter in encode:
-#     res_encode.append(code[letter])
-
-# print(''.join(res_encode))
-
-# res_decode = [decrypt[let] for let in decode]
-# print(''.join(res_decode))
-
-
-
-
-
-
-
-
-
 
