@@ -22,19 +22,19 @@ print(spis)
 
 
 # second solve
-def char_frequency(arr):
-    dict = {}
-    for n in arr:
+def char_frequency(inp):   # inp:str --> input('hello')
+    dict = {}              # create new empty dict
+    for el in arr:
         keys = dict.keys()
-        if n in keys:
-            dict[n] += 1
+        if el in keys:
+            dict[el] += 1  # dict[el] = for example it is 'h' if 'h' in key of our dict --> {'h': +=1}
         else:
-            dict[n] = 1
+            dict[el] = 1   # if dict[el] not in dict yet, for example 'e' --> {'e': 1} 
     return dict
 
 # arr = hello
-stri = input()
-print(char_frequency(stri))
+inp = input()
+print(char_frequency(inp))
 
 
 
